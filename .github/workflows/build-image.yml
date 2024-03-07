@@ -52,6 +52,7 @@ jobs:
       - name: Build and deploy
         env:
           PORT: 80
+          API_KEY_WEATHER: ${{ secrets.GITHUB_API_KEY_WEATHER }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF: ${{ github.ref }}
