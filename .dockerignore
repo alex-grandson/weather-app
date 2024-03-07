@@ -1,0 +1,11 @@
+.vscode/
+.fleet/
+.idea/
+.git/
+venv/
+
+example.json
+.env
+
+*.png
+README.md

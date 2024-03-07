@@ -1,0 +1,6 @@
+.vscode/
+.fleet/
+.idea/
+venv/
+example.json
+.env

@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  weather-app:
+    build: .
+    restart: always
+    environment:
+      API_KEY_WEATHER: ${API_KEY_WEATHER}
+    ports:
+      - 5000:5000
